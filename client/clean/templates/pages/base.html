@@ -1,0 +1,60 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Zed - {%block title%}{%endblock%}</title>
+    
+    <link rel="stylesheet" href="{% static '/styles/nav.css' %}">
+    <link rel="stylesheet" href="{% static '/styles/style.css' %}">
+    <link rel="stylesheet" href="{% static '/styles/about.css' %}">
+    <link rel="stylesheet" href="{% static '/styles/services.css' %}">
+    <link rel="stylesheet" href="{% static '/styles/signin.css' %}">
+    <link rel="stylesheet" href="{% static '/styles/signup.css' %}">
+    <link rel="stylesheet" href="{% static '/styles/support.css' %}">
+    <link rel="stylesheet" href="{% static '/styles/bottom-nav.css' %}">
+
+    <!------------------User-Styles----------------------------------------------->
+
+</head>
+<body>
+    {%block navigation%}
+    <nav>
+        <ul>
+            <div class="section-a">
+                <li>
+                    <a href="{% url 'homepage' %}">CLINZED LTD</a>
+                </li>
+            </div>
+            <div class="section-b">
+                <li>
+                    <a href="{% url 'homepage' %}">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+                <li>
+                    <a href="">Support</a>
+                </li>
+            </div>
+            <div class="section-c">
+                <li>
+                    <a href="{% url 'signup' %}">Signup</a>
+                </li>
+                <div class="bar"></div>
+                <li>
+                    <a href="{% url 'signin' %}">Signin</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    {%endblock%}
+    {%block content%}
+    {%endblock%}
+</body>
+</html>

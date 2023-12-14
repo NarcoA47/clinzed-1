@@ -1,0 +1,54 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLINZED LTD - {%block user_title%}{%endblock%}</title>
+
+    <link rel="stylesheet" href="{% static '/styles/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/styles/css/nav.css' %}">
+</head>
+<body>
+    {%block navigation%}
+    <nav>
+        <ul>
+            <div class="section-a">
+                <li>
+                    <a href="./index.html">CLINZED LTD</a>
+                </li>
+            </div>
+            <div class="section-b">
+                <li>
+                    <a href="./index.html">Dashboard</a>
+                </li>
+                <li>
+                    <a href="./pages/about.html">Customer Plans</a>
+                </li>
+                <li>
+                    <a href="./pages/service.html">Date collection</a>
+                </li>
+                <li>
+                    <a href="./pages/support.html">Customer support</a>
+                </li>
+                <li>
+                    <a href="./pages/support.html">Customer Policies</a>
+                </li>
+            </div>
+            <div class="section-c">
+                <li>
+                    <a href="./pages/signup.html">Username</a>
+                </li>
+                <div class="bar"></div>
+                <li>
+                    <a href="./pages/signin.html">Logout</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    {%endblock%}
+
+    {%block user_content%}
+    {%endblock%}
+</body>

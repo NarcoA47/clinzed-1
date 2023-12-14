@@ -1,0 +1,112 @@
+
+/*------------------Cover-Image---------------------*/
+.homepage .cover-photo .container .content {
+    width: 100%;
+}
+
+.homepage .cover-photo .container .content img{
+    width: 100%;
+}
+/*-----------------End-Cover-Image---------------------*/
+/*------------------Our-Services---------------------*/
+.homepage .service-tabs .our-services .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 4rem;
+}
+
+.homepage .service-tabs .our-services .container .card{
+    box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+    border-radius: .5rem;
+    margin: 0rem 4rem;
+    text-align: center;
+    padding: 0px 2px;
+}
+
+.homepage .service-tabs .our-services .container .card img{
+    border-radius: .5rem;
+    width: 100%;
+    margin: 0px 0.5px;
+}
+
+.homepage .service-tabs .our-services .container .card .button{
+    box-shadow: 2px 2px 2px 2px rgb(132, 131, 131);
+    border-radius: .5rem;
+    margin: 25px 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.homepage .service-tabs .our-services .container .card .button a{
+   position: relative;
+   top: 15px;
+   color: black;
+}
+/*-----------------End-Our-Services---------------------*/
+/*-----------------Highlight----------------------------*/
+.homepage .highlight .container {
+    display: block;
+    margin: 10rem 4rem;
+    text-align: center;
+}
+
+.homepage .highlight .container .tabs-1 {
+    display: flex;
+    margin: 0rem 4rem;
+    text-align: center;
+}
+
+.homepage .highlight .container .tabs-1 .image-container{
+    width: 50%;
+}
+
+.homepage .highlight .container .tabs-1 .image-container img{
+    width: 100%;
+}
+
+.homepage .highlight .container .tabs-1 .text-container{
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.homepage .highlight .container .tabs-2 {
+    display: flex;
+    margin: 0rem 4rem;
+    text-align: center;
+}
+
+.homepage .highlight .container .tabs-2 .text-container{
+    text-align: center;
+    margin-right: 10rem;
+}
+
+.homepage .highlight .container .tabs-2 .image-container img{
+    width: 100%;
+}
+
+.homepage .highlight .container .tabs-2 .text-container{
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.homepage .highlight .container .tabs-3 {
+    display: flex;
+    margin: 0rem 4rem;
+    text-align: center;
+}
+
+.homepage .highlight .container .tabs-3 .text-container{
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.homepage .highlight .container .tabs-3 .image-container img{
+    width: 100%;
+}
+
+.homepage .highlight .container .tabs-3 .text-container{
+    text-align: center;
+    margin-left: 10rem;
+}
+/*-----------------End-highlight-------------------------*/
+
